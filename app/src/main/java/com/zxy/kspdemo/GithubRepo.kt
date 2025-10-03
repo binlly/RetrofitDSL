@@ -15,7 +15,7 @@ package com.zxy.kspdemo
 data class GithubRepo(
     val id: Long,
     val name: String,
-    val fullName: String?,
+    val full_name: String?,
     val homepage: String?,
     val description: String?,
     val created_at: String?,

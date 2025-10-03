@@ -48,7 +48,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun RequestRepo(modifier: Modifier = Modifier) {
 
-    var sss by remember { mutableStateOf("测试") }
+    var sss by remember { mutableStateOf("请求中...") }
 
     retrofit {
         client(App.retrofitClient)
